@@ -1,0 +1,12 @@
+openai-whisper
+torch
+torchaudio
+ffmpeg-python
+moviepy
+pydub
+tqdm
+pinecone
+google-generativeai
+google-auth
+python-dotenv
+streamlit
