@@ -1,10 +1,15 @@
 # Video-based RAG Application
+
 This project is a video-based Retrieval-Augmented Generation (RAG) application designed to analyze lecture videos. It allows users to ask questions related to the video content, leveraging a Large Language Model (LLM)—in this case, Gemini—for intelligent responses.
+
 ## Features
+
 - Analyze lecture videos for content understanding.
 - Prompt any question about the video and receive context-aware answers.
 - Integrates with Gemini LLM and Pinecone for vector storage and retrieval.
+
 ## Installation
+
 ### 1. Clone the repository
 
 ```bash
@@ -28,13 +33,11 @@ pip install -r requirements.txt
 ## Environment Setup
 
 1. **Create accounts:**
-    - [Pinecone](https://www.pinecone.io/)
-    - [Google Generative AI (Gemini)](https://ai.google.dev/)
-
+   - [Pinecone](https://www.pinecone.io/)
+   - [Google Generative AI (Gemini)](https://ai.google.dev/)
 2. **Obtain API keys:**
-    - `PINECONE_API_KEY`
-    - `GEMINI_API_KEY`
-
+   - `PINECONE_API_KEY`
+   - `GEMINI_API_KEY`
 3. **Create a `.env.local` file in the project root:**
 
 ```
@@ -45,6 +48,7 @@ GEMINI_API_KEY=your-gemini-api-key
 ## Contributing
 
 Contributions are welcome! Please ensure you have set up your environment as described above before submitting a pull request.
+
 ## Contribution Guidelines
 
 Before contributing, please create a new branch for your changes:
